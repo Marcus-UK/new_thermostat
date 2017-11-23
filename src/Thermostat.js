@@ -3,6 +3,7 @@ function Thermostat() {
   this.MIN_TEMP = 10;
   this.PSM_ON_MAX_TEMP = 25;
   this.PSM_OFF_MAX_TEMP = 32;
+  this.DEFAULT_TEMP = 20;
   this._temperature = 20;
 }
 
@@ -22,6 +23,10 @@ function Thermostat() {
       return ;
     }
     this._temperature -= 1;
+  }
+
+  Thermostat.prototype.resetTemperature = function() {
+    return this._temperature = this.DEFAULT_TEMP;
   }
 
   Thermostat.prototype._isMinimumTemperature = function() {
