@@ -9,6 +9,10 @@ describe('Thermostat', function() {
   });
 
   it('starts at 20 degrees', function() {
-    expect(thermostat.temperature).toEqual(20);
+    expect(thermostat.getTemperature()).toEqual(20);
+  });
+
+  it('Increases the temperature with up', function() {
+    expect(thermostat.up()).toEqual(21);
   });
 });
