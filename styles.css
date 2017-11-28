@@ -9,3 +9,33 @@
 .high-usage {
   color: red;
 }
+
+section {
+  font-family: 'arial';
+}
+
+h1 {
+  font-weight: 700;
+
+}
+
+h2{
+  color: red;
+}
+
+.buttons {
+    font-family: 'arial';
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+  }
+
+#temperature-reset {
+  font-family: 'arial';
+  top: 50%;
+  left: 50%;
+  width: 105px;
+  height: 40px;
+}

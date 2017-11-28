@@ -5,19 +5,24 @@
     <link rel ='stylesheet' href='styles.css'>
   </head>
   <body>
-    <section>
+    <section align="center">
       <h1>Current outside temperature(ºC): <span id="current-temperature"></span></h1>
-    
+
   <form id="select-city">
     <input id="current-city" type="text" placeholder="Enter a city"></input>
     <input type="submit"></input>
-  </form>
+  </form><br>
+  <br>
+  <h2>Thermostat(ºC):
       <h1 id="temperature"></h1>
       <p>
-        <button id="temperature-up">+</button>
-        <button id="temperature-down">-</button>
-        <button id="temperature-reset">reset</button>
-        power saving mode is <span id="power-saving-status">on</span>
+        <button class="buttons" id="temperature-up">+</button>
+        <button class="buttons" id="temperature-down">-</button><br>
+        <br>
+        <button  id="temperature-reset">reset</button><br>
+        <br>
+        power saving mode is <span id="power-saving-status">on</span><br>
+        <br>
         <button id="powersaving-on">PSM on</button>
         <button id="powersaving-off">PSM off</button>
       </p>
