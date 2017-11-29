@@ -14,8 +14,6 @@ To run this application, please follow these steps:
   2. enter the file path for index.html into any web browser and confirm. this
      will load up the application.
 
-  Alternatively, a version of this application is hosted at the following
-  address:
 
 ## Technologies used in this project
 
