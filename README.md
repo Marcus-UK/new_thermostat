@@ -27,5 +27,5 @@ To run this application, please follow these steps:
 
   ## Running Tests
 
-  To run the test for this project, enter the file path for SpecRunner.html in
+  To run the tests for this project, enter the file path for SpecRunner.html in
   to any web browser.
