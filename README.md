@@ -3,7 +3,8 @@
 Thermostat is a single page Javascript application that is dynamically updated
 using Jquery. Jasmine has been used to provide full unit test coverage.
 
-![picture](Thermostat.jpg)
+<img align="center" width="120" height="178"
+     title="Thermostat" src="Thermostat.JPG">
 
 ## Getting Started
 
