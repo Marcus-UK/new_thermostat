@@ -1,7 +1,9 @@
 ## Thermostat
 
 Thermostat is a single page Javascript application that is dynamically updated
-using Jquery. Jasmine has been used to provide full unit test coverage.
+using Jquery. Jasmine has been used to provide full unit test coverage. It also
+links to the OpenWeatherMap api, allowing you to check the current temperature
+of any city you choose.
 
 <img align="center" width="750" height="400"
      title="Thermostat" src="Thermostat.JPG">
