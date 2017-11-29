@@ -12,6 +12,8 @@
 
 section {
   font-family: 'arial';
+  background-color: #85adad;
+  border: 5px solid;
 }
 
 h1 {
@@ -24,7 +26,6 @@ h2{
 }
 
 .buttons {
-    font-family: 'arial';
     top: 50%;
     left: 50%;
     width: 50px;
@@ -33,9 +34,17 @@ h2{
   }
 
 #temperature-reset {
-  font-family: 'arial';
   top: 50%;
   left: 50%;
   width: 105px;
   height: 40px;
+}
+
+#thermostat {
+  background-color: #476b6b;
+  border: 5px solid;
+  border-radius: 10px;
+  margin: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
